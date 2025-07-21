@@ -1,10 +1,10 @@
 {
   "yudou66": {
     "start_url": "https://www.yudou123.top/",
-    "up_date": "2025-07-19",
+    "up_date": "2025-07-21",
     "selector": "a[rel='bookmark']",
     "pattern": "https?://yy.yudou66.top/[^<>\\r\\n]+",
-    "password": "0022",
+    "password": "6688",
     "yt_idx": 0,
     "script": "multiDecrypt(arguments[0]);"
   },
@@ -52,7 +52,7 @@
   },
   "nodefree": {
     "start_url": "https://nodefree.org",
-    "up_date": "2025-07-20",
+    "up_date": "2025-07-21",
     "selector": "a[class='text-reset']",
     "pattern": "https?://nodefree.githubrowcontent.com/[^<>\\r\\n]+"
   },
