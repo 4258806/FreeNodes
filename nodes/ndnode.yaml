@@ -19,7 +19,7 @@ proxies:
   name: 6元高速机场：cczzuu.top
   password: amazonskr05
   port: 443
-  server: 13.126.196.58
+  server: 54.189.166.94
   tfo: false
   type: ss
 - alterId: 2
@@ -54,37 +54,10 @@ proxies:
   server: 103.103.245.158
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 🇭🇰 香港3|@stairnode
-  port: 10701
-  server: 43.247.135.176
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: b5fb2081-2d51-4a3a-93d7-b20e34c6c0af
-- client-fingerprint: chrome
-  name: 🇭🇰 香港4|@stairnode
-  password: d0d08cddacc3190ea81b1b792e1b5fde
-  port: 3221
-  server: 36.151.192.243
-  skip-cert-verify: true
-  sni: www.baidu.com
-  type: trojan
-- client-fingerprint: chrome
-  name: 🇭🇰 香港5|@stairnode
-  password: d0d08cddacc3190ea81b1b792e1b5fde
-  port: 446
-  server: 36.151.192.243
-  skip-cert-verify: true
-  sni: www.baidu.com
-  type: trojan
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
-  name: 🇭🇰 香港6|@stairnode
+  name: 🇭🇰 香港3|@stairnode
   network: ws
   port: 80
   server: hkt.gotochinatown.net
@@ -92,18 +65,70 @@ proxies:
   tfo: false
   tls: false
   type: vmess
-  uuid: 9b604194-17b7-11ef-80b0-f23c913c8d2b
+  uuid: 4d631e24-97f7-11ea-8fc9-f23c913c8d2b
   ws-opts:
     headers:
       Host: broadcastlv.chat.bilibili.com
     path: /
+- client-fingerprint: chrome
+  name: 🇭🇰 香港4|@stairnode
+  password: d0d08cddacc3190ea81b1b792e1b5fde
+  port: 443
+  server: 58.152.30.37
+  skip-cert-verify: true
+  sni: www.baidu.com
+  type: trojan
+- alterId: 2
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇭🇰 香港5|@stairnode
+  network: ws
+  port: 80
+  server: hkt.gotochinatown.net
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 64617ed2-4823-11ef-9f2d-f23c9164ca5d
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
+- client-fingerprint: chrome
+  name: 🇭🇰 香港6|@stairnode
+  password: d0d08cddacc3190ea81b1b792e1b5fde
+  port: 444
+  server: 36.156.102.125
+  skip-cert-verify: true
+  sni: www.ithome.com
+  type: trojan
+- name: 🇹🇼 台湾|@stairnode
+  password: test.+
+  port: 30443
+  server: cmhkb.ssv.vc
+  skip-cert-verify: false
+  sni: cmhkb.ssv.vc
+  tls: true
+  type: http
+  username: test
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇹🇼 台湾2|@stairnode
+  port: 3690
+  server: 64657217-t0fds0-t0yugh-dnss.82.iwskwai.com
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 16955d72-1794-11f0-a035-f23c95b6f51d
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 🇯🇵 日本|@stairnode
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202507282137611-8jv54zz1ja.download.microsoft.com
+    host: 202507282137611-ZRPR5o9z3b.download.microsoft.com
     mode: http
   port: 8766
   server: cn01.efan8867801.xyz
@@ -125,46 +150,43 @@ proxies:
   server: 137.220.191.40
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
+- client-fingerprint: chrome
   name: 🇯🇵 日本3|@stairnode
-  port: 10544
-  server: 45.159.51.232
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: fea0400c-9dab-4709-a149-9f3144e5a346
+  password: d0d08cddacc3190ea81b1b792e1b5fde
+  port: 181
+  server: 36.156.102.125
+  skip-cert-verify: true
+  sni: www.baidu.com
+  type: trojan
 - client-fingerprint: chrome
   name: 🇯🇵 日本4|@stairnode
   password: d0d08cddacc3190ea81b1b792e1b5fde
-  port: 46135
-  server: 36.151.192.243
+  port: 461
+  server: 36.156.102.125
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
 - client-fingerprint: chrome
   name: 🇰🇷 韩国|@stairnode
   password: d0d08cddacc3190ea81b1b792e1b5fde
-  port: 16003
-  server: 36.151.195.111
+  port: 443
+  server: 34.64.53.92
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
 - client-fingerprint: chrome
   name: 🇸🇬 新加坡|@stairnode
   password: d0d08cddacc3190ea81b1b792e1b5fde
-  port: 811
-  server: 36.151.195.111
+  port: 443
+  server: 157.230.32.243
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
 - client-fingerprint: chrome
   name: 🇸🇬 新加坡2|@stairnode
   password: d0d08cddacc3190ea81b1b792e1b5fde
-  port: 145
-  server: 36.151.195.111
+  port: 406
+  server: 36.156.102.125
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
@@ -176,6 +198,33 @@ proxies:
   skip-cert-verify: false
   sni: sg.mjt000.com
   type: trojan
+- alterId: 2
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇸🇬 新加坡4|@stairnode
+  network: ws
+  port: 30839
+  server: v39.heduian.link
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      Host: baidu.com
+    path: /oooo
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇸🇬 新加坡5|@stairnode
+  port: 3683
+  server: 51e48c04-t0fds0-t3fjp7-cdfn.82.iwskwai.com
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 94931862-1484-11f0-9ab7-f23c95b6f51d
 - client-fingerprint: chrome
   name: 🇺🇸 美国|@stairnode
   network: ws
@@ -195,7 +244,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202507282137611-8jv54zz1ja.download.microsoft.com
+    host: 202507282137611-ZRPR5o9z3b.download.microsoft.com
     mode: http
   port: 8774
   server: cn01.efan8867801.xyz
@@ -204,16 +253,16 @@ proxies:
 - client-fingerprint: chrome
   name: 🇺🇸 美国3|@stairnode
   password: d0d08cddacc3190ea81b1b792e1b5fde
-  port: 1582
-  server: 36.151.195.111
+  port: 472
+  server: 36.156.102.125
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
 - client-fingerprint: chrome
   name: 🇺🇸 美国4|@stairnode
   password: d0d08cddacc3190ea81b1b792e1b5fde
-  port: 443
-  server: 165.22.3.117
+  port: 347
+  server: 36.156.102.125
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
@@ -229,6 +278,8 @@ proxy-groups:
   - 🇭🇰 香港4|@stairnode
   - 🇭🇰 香港5|@stairnode
   - 🇭🇰 香港6|@stairnode
+  - 🇹🇼 台湾|@stairnode
+  - 🇹🇼 台湾2|@stairnode
   - 🇯🇵 日本|@stairnode
   - 🇯🇵 日本2|@stairnode
   - 🇯🇵 日本3|@stairnode
@@ -237,6 +288,8 @@ proxy-groups:
   - 🇸🇬 新加坡|@stairnode
   - 🇸🇬 新加坡2|@stairnode
   - 🇸🇬 新加坡3|@stairnode
+  - 🇸🇬 新加坡4|@stairnode
+  - 🇸🇬 新加坡5|@stairnode
   - 🇺🇸 美国|@stairnode
   - 🇺🇸 美国2|@stairnode
   - 🇺🇸 美国3|@stairnode
@@ -252,6 +305,8 @@ proxy-groups:
   - 🇭🇰 香港4|@stairnode
   - 🇭🇰 香港5|@stairnode
   - 🇭🇰 香港6|@stairnode
+  - 🇹🇼 台湾|@stairnode
+  - 🇹🇼 台湾2|@stairnode
   - 🇯🇵 日本|@stairnode
   - 🇯🇵 日本2|@stairnode
   - 🇯🇵 日本3|@stairnode
@@ -260,6 +315,8 @@ proxy-groups:
   - 🇸🇬 新加坡|@stairnode
   - 🇸🇬 新加坡2|@stairnode
   - 🇸🇬 新加坡3|@stairnode
+  - 🇸🇬 新加坡4|@stairnode
+  - 🇸🇬 新加坡5|@stairnode
   - 🇺🇸 美国|@stairnode
   - 🇺🇸 美国2|@stairnode
   - 🇺🇸 美国3|@stairnode
@@ -279,6 +336,8 @@ proxy-groups:
   - 🇭🇰 香港4|@stairnode
   - 🇭🇰 香港5|@stairnode
   - 🇭🇰 香港6|@stairnode
+  - 🇹🇼 台湾|@stairnode
+  - 🇹🇼 台湾2|@stairnode
   - 🇯🇵 日本|@stairnode
   - 🇯🇵 日本2|@stairnode
   - 🇯🇵 日本3|@stairnode
@@ -287,6 +346,8 @@ proxy-groups:
   - 🇸🇬 新加坡|@stairnode
   - 🇸🇬 新加坡2|@stairnode
   - 🇸🇬 新加坡3|@stairnode
+  - 🇸🇬 新加坡4|@stairnode
+  - 🇸🇬 新加坡5|@stairnode
   - 🇺🇸 美国|@stairnode
   - 🇺🇸 美国2|@stairnode
   - 🇺🇸 美国3|@stairnode
@@ -303,6 +364,8 @@ proxy-groups:
   - 🇭🇰 香港4|@stairnode
   - 🇭🇰 香港5|@stairnode
   - 🇭🇰 香港6|@stairnode
+  - 🇹🇼 台湾|@stairnode
+  - 🇹🇼 台湾2|@stairnode
   - 🇯🇵 日本|@stairnode
   - 🇯🇵 日本2|@stairnode
   - 🇯🇵 日本3|@stairnode
@@ -311,6 +374,8 @@ proxy-groups:
   - 🇸🇬 新加坡|@stairnode
   - 🇸🇬 新加坡2|@stairnode
   - 🇸🇬 新加坡3|@stairnode
+  - 🇸🇬 新加坡4|@stairnode
+  - 🇸🇬 新加坡5|@stairnode
   - 🇺🇸 美国|@stairnode
   - 🇺🇸 美国2|@stairnode
   - 🇺🇸 美国3|@stairnode
@@ -327,6 +392,8 @@ proxy-groups:
   - 🇭🇰 香港4|@stairnode
   - 🇭🇰 香港5|@stairnode
   - 🇭🇰 香港6|@stairnode
+  - 🇹🇼 台湾|@stairnode
+  - 🇹🇼 台湾2|@stairnode
   - 🇯🇵 日本|@stairnode
   - 🇯🇵 日本2|@stairnode
   - 🇯🇵 日本3|@stairnode
@@ -335,6 +402,8 @@ proxy-groups:
   - 🇸🇬 新加坡|@stairnode
   - 🇸🇬 新加坡2|@stairnode
   - 🇸🇬 新加坡3|@stairnode
+  - 🇸🇬 新加坡4|@stairnode
+  - 🇸🇬 新加坡5|@stairnode
   - 🇺🇸 美国|@stairnode
   - 🇺🇸 美国2|@stairnode
   - 🇺🇸 美国3|@stairnode
@@ -351,6 +420,8 @@ proxy-groups:
   - 🇭🇰 香港4|@stairnode
   - 🇭🇰 香港5|@stairnode
   - 🇭🇰 香港6|@stairnode
+  - 🇹🇼 台湾|@stairnode
+  - 🇹🇼 台湾2|@stairnode
   - 🇯🇵 日本|@stairnode
   - 🇯🇵 日本2|@stairnode
   - 🇯🇵 日本3|@stairnode
@@ -359,6 +430,8 @@ proxy-groups:
   - 🇸🇬 新加坡|@stairnode
   - 🇸🇬 新加坡2|@stairnode
   - 🇸🇬 新加坡3|@stairnode
+  - 🇸🇬 新加坡4|@stairnode
+  - 🇸🇬 新加坡5|@stairnode
   - 🇺🇸 美国|@stairnode
   - 🇺🇸 美国2|@stairnode
   - 🇺🇸 美国3|@stairnode
@@ -376,6 +449,8 @@ proxy-groups:
   - 🇭🇰 香港4|@stairnode
   - 🇭🇰 香港5|@stairnode
   - 🇭🇰 香港6|@stairnode
+  - 🇹🇼 台湾|@stairnode
+  - 🇹🇼 台湾2|@stairnode
   - 🇯🇵 日本|@stairnode
   - 🇯🇵 日本2|@stairnode
   - 🇯🇵 日本3|@stairnode
@@ -384,6 +459,8 @@ proxy-groups:
   - 🇸🇬 新加坡|@stairnode
   - 🇸🇬 新加坡2|@stairnode
   - 🇸🇬 新加坡3|@stairnode
+  - 🇸🇬 新加坡4|@stairnode
+  - 🇸🇬 新加坡5|@stairnode
   - 🇺🇸 美国|@stairnode
   - 🇺🇸 美国2|@stairnode
   - 🇺🇸 美国3|@stairnode
@@ -417,6 +494,8 @@ proxy-groups:
   - 🇭🇰 香港4|@stairnode
   - 🇭🇰 香港5|@stairnode
   - 🇭🇰 香港6|@stairnode
+  - 🇹🇼 台湾|@stairnode
+  - 🇹🇼 台湾2|@stairnode
   - 🇯🇵 日本|@stairnode
   - 🇯🇵 日本2|@stairnode
   - 🇯🇵 日本3|@stairnode
@@ -425,6 +504,8 @@ proxy-groups:
   - 🇸🇬 新加坡|@stairnode
   - 🇸🇬 新加坡2|@stairnode
   - 🇸🇬 新加坡3|@stairnode
+  - 🇸🇬 新加坡4|@stairnode
+  - 🇸🇬 新加坡5|@stairnode
   - 🇺🇸 美国|@stairnode
   - 🇺🇸 美国2|@stairnode
   - 🇺🇸 美国3|@stairnode
