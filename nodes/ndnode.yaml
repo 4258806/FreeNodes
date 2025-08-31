@@ -19,7 +19,7 @@ proxies:
   name: 6元高速机场：cczzuu.top
   password: amazonskr05
   port: 443
-  server: 18.195.55.29
+  server: 108.129.163.206
   tfo: false
   type: ss
 - alterId: 2
@@ -54,17 +54,17 @@ proxies:
   server: 103.103.245.158
   tfo: false
   type: ss
-- alterId: 0
+- alterId: 64
   cipher: auto
   client-fingerprint: chrome
   name: 🇭🇰 香港3|@stairnode
-  port: 27549
-  server: 103.224.80.26
+  port: 47272
+  server: 183.240.245.250
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: 907a372b-b6b8-41df-9d56-a244b4e1a320
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - client-fingerprint: chrome
   name: 🇭🇰 香港4|@stairnode
   password: 253bc477d4e43c209f2d427272968280
@@ -84,17 +84,17 @@ proxies:
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 🇹🇼 台湾|@stairnode
-  password: c9fd29d2-3c04-42cf-b60b-bbf3115a4e7c
-  port: 10152
-  server: 1.170.17.164
+  password: 87db2955-048b-4ac9-bf8d-fb1bfe760e71
+  port: 10148
+  server: 36.232.74.25
   tfo: false
   type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 🇹🇼 台湾2|@stairnode
-  password: 7fcfaa5c-5ce1-422a-bcb6-b96284aada90
-  port: 10130
-  server: 36.232.72.237
+  password: 0a28538e-d7a3-4185-928a-c8bd49bb9c6b
+  port: 10141
+  server: 36.232.100.114
   tfo: false
   type: ss
 - cipher: rc4-md5
@@ -103,7 +103,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202508150964186-UsfARRoWJx.download.microsoft.com
+    host: 202508150964186-5vnd5Hsmlh.download.microsoft.com
     mode: http
   port: 8766
   server: cn01.efan8867801.xyz
@@ -157,29 +157,21 @@ proxies:
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
-- alterId: 2
-  cipher: auto
+- cipher: aes-128-gcm
   client-fingerprint: chrome
-  name: 🇸🇬 新加坡3|@stairnode
-  network: ws
-  port: 30839
-  server: v39.heduian.link
-  skip-cert-verify: false
+  name: 🇺🇸 美国|@stairnode
+  password: 01721e43-5389-4f97-b21c-900abb2bda9e
+  port: 12023
+  server: awes35lesl.blhao0o.dpdns.org
   tfo: false
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-opts:
-    headers:
-      Host: baidu.com
-    path: /oooo
+  type: ss
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 🇺🇸 美国2|@stairnode
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202508150964186-UsfARRoWJx.download.microsoft.com
+    host: 202508150964186-5vnd5Hsmlh.download.microsoft.com
     mode: http
   port: 8774
   server: cn01.efan8867801.xyz
@@ -220,7 +212,7 @@ proxy-groups:
   - 🇯🇵 日本4|@stairnode
   - 🇸🇬 新加坡|@stairnode
   - 🇸🇬 新加坡2|@stairnode
-  - 🇸🇬 新加坡3|@stairnode
+  - 🇺🇸 美国|@stairnode
   - 🇺🇸 美国2|@stairnode
   - 🇺🇸 美国3|@stairnode
   - 🇺🇸 美国4|@stairnode
@@ -242,7 +234,7 @@ proxy-groups:
   - 🇯🇵 日本4|@stairnode
   - 🇸🇬 新加坡|@stairnode
   - 🇸🇬 新加坡2|@stairnode
-  - 🇸🇬 新加坡3|@stairnode
+  - 🇺🇸 美国|@stairnode
   - 🇺🇸 美国2|@stairnode
   - 🇺🇸 美国3|@stairnode
   - 🇺🇸 美国4|@stairnode
@@ -268,7 +260,7 @@ proxy-groups:
   - 🇯🇵 日本4|@stairnode
   - 🇸🇬 新加坡|@stairnode
   - 🇸🇬 新加坡2|@stairnode
-  - 🇸🇬 新加坡3|@stairnode
+  - 🇺🇸 美国|@stairnode
   - 🇺🇸 美国2|@stairnode
   - 🇺🇸 美国3|@stairnode
   - 🇺🇸 美国4|@stairnode
@@ -291,7 +283,7 @@ proxy-groups:
   - 🇯🇵 日本4|@stairnode
   - 🇸🇬 新加坡|@stairnode
   - 🇸🇬 新加坡2|@stairnode
-  - 🇸🇬 新加坡3|@stairnode
+  - 🇺🇸 美国|@stairnode
   - 🇺🇸 美国2|@stairnode
   - 🇺🇸 美国3|@stairnode
   - 🇺🇸 美国4|@stairnode
@@ -314,7 +306,7 @@ proxy-groups:
   - 🇯🇵 日本4|@stairnode
   - 🇸🇬 新加坡|@stairnode
   - 🇸🇬 新加坡2|@stairnode
-  - 🇸🇬 新加坡3|@stairnode
+  - 🇺🇸 美国|@stairnode
   - 🇺🇸 美国2|@stairnode
   - 🇺🇸 美国3|@stairnode
   - 🇺🇸 美国4|@stairnode
@@ -337,7 +329,7 @@ proxy-groups:
   - 🇯🇵 日本4|@stairnode
   - 🇸🇬 新加坡|@stairnode
   - 🇸🇬 新加坡2|@stairnode
-  - 🇸🇬 新加坡3|@stairnode
+  - 🇺🇸 美国|@stairnode
   - 🇺🇸 美国2|@stairnode
   - 🇺🇸 美国3|@stairnode
   - 🇺🇸 美国4|@stairnode
@@ -361,7 +353,7 @@ proxy-groups:
   - 🇯🇵 日本4|@stairnode
   - 🇸🇬 新加坡|@stairnode
   - 🇸🇬 新加坡2|@stairnode
-  - 🇸🇬 新加坡3|@stairnode
+  - 🇺🇸 美国|@stairnode
   - 🇺🇸 美国2|@stairnode
   - 🇺🇸 美国3|@stairnode
   - 🇺🇸 美国4|@stairnode
@@ -401,7 +393,7 @@ proxy-groups:
   - 🇯🇵 日本4|@stairnode
   - 🇸🇬 新加坡|@stairnode
   - 🇸🇬 新加坡2|@stairnode
-  - 🇸🇬 新加坡3|@stairnode
+  - 🇺🇸 美国|@stairnode
   - 🇺🇸 美国2|@stairnode
   - 🇺🇸 美国3|@stairnode
   - 🇺🇸 美国4|@stairnode
