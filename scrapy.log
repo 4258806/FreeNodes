@@ -1,4 +1,4 @@
-2025-12-30 04:39:30 [scrapy.middleware] INFO: Enabled downloader middlewares:
+2025-12-31 04:38:41 [scrapy.middleware] INFO: Enabled downloader middlewares:
 ['scrapy.downloadermiddlewares.offsite.OffsiteMiddleware',
  'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
  'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
@@ -12,250 +12,257 @@
  'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
  'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
  'scrapy.downloadermiddlewares.stats.DownloaderStats']
-2025-12-30 04:39:30 [scrapy.middleware] INFO: Enabled spider middlewares:
+2025-12-31 04:38:41 [scrapy.middleware] INFO: Enabled spider middlewares:
 ['scrapy.spidermiddlewares.start.StartSpiderMiddleware',
  'scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
  'scrapy.spidermiddlewares.referer.RefererMiddleware',
  'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
  'scrapy.spidermiddlewares.depth.DepthMiddleware']
-2025-12-30 04:39:30 [scrapy.middleware] INFO: Enabled item pipelines:
+2025-12-31 04:38:41 [scrapy.middleware] INFO: Enabled item pipelines:
 ['NodeScrapy.pipelines.Pipeline']
-2025-12-30 04:39:30 [scrapy.core.engine] INFO: Spider opened
-2025-12-30 04:39:30 [py.warnings] WARNING: /opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/scrapy/core/spidermw.py:433: ScrapyDeprecationWarning: NodeScrapy.spiders.SimpleSpider.SimpleSpider defines the deprecated start_requests() method. start_requests() has been deprecated in favor of a new method, start(), to support asynchronous code execution. start_requests() will stop being called in a future version of Scrapy. If you use Scrapy 2.13 or higher only, replace start_requests() with start(); note that start() is a coroutine (async def). If you need to maintain compatibility with lower Scrapy versions, when overriding start_requests() in a spider class, override start() as well; you can use super() to reuse the inherited start() implementation without copy-pasting. See the release notes of Scrapy 2.13 for details: https://docs.scrapy.org/en/2.13/news.html
+2025-12-31 04:38:41 [scrapy.core.engine] INFO: Spider opened
+2025-12-31 04:38:41 [py.warnings] WARNING: /opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/scrapy/core/spidermw.py:433: ScrapyDeprecationWarning: NodeScrapy.spiders.SimpleSpider.SimpleSpider defines the deprecated start_requests() method. start_requests() has been deprecated in favor of a new method, start(), to support asynchronous code execution. start_requests() will stop being called in a future version of Scrapy. If you use Scrapy 2.13 or higher only, replace start_requests() with start(); note that start() is a coroutine (async def). If you need to maintain compatibility with lower Scrapy versions, when overriding start_requests() in a spider class, override start() as well; you can use super() to reuse the inherited start() implementation without copy-pasting. See the release notes of Scrapy 2.13 for details: https://docs.scrapy.org/en/2.13/news.html
   warn(
 
-2025-12-30 04:39:30 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
-2025-12-30 04:39:30 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
-2025-12-30 04:39:30 [simple] INFO: clashmeta start
-2025-12-30 04:39:30 [simple] INFO: ndnode start
-2025-12-30 04:39:30 [simple] INFO: nodev2ray start
-2025-12-30 04:39:30 [simple] INFO: nodefree start
-2025-12-30 04:39:30 [simple] INFO: v2rayshare start
-2025-12-30 04:39:30 [simple] INFO: wenode start
-2025-12-30 04:39:30 [simple] INFO: clashmeta found /free-nodes/2025-12-25-free-high-speed-nodes.htm on 2025-03-01
-2025-12-30 04:39:30 [simple] INFO: clashmeta found /free-nodes/2025-12-24-clash-meta-windows.htm on 2025-03-01
-2025-12-30 04:39:30 [simple] INFO: clashmeta found /free-nodes/2025-12-23-clash-meta-node-github.htm on 2025-03-01
-2025-12-30 04:39:30 [simple] INFO: clashmeta found /free-nodes/2025-12-22-node-share.htm on 2025-03-01
-2025-12-30 04:39:30 [simple] INFO: clashmeta found /free-nodes/2025-12-21-free-high-speed-nodes.htm on 2025-03-01
-2025-12-30 04:39:30 [simple] INFO: clashmeta found /free-nodes/2025-12-20-free-clash-meta-node.htm on 2025-03-01
-2025-12-30 04:39:30 [simple] INFO: clashmeta found /free-nodes/2025-12-19-node-share.htm on 2025-03-01
-2025-12-30 04:39:30 [simple] INFO: clashmeta found /free-nodes/2025-12-18-clash-meta-windows.htm on 2025-03-01
-2025-12-30 04:39:30 [simple] INFO: clashmeta found /free-nodes/2025-12-17-clash-meta-node-share.htm on 2025-03-01
-2025-12-30 04:39:30 [simple] INFO: clashmeta found /free-nodes/2025-12-16-node-share.htm on 2025-03-01
-2025-12-30 04:39:30 [simple] INFO: clashmeta is up to date, exiting
-2025-12-30 04:39:30 [simple] INFO: clashmeta needs update, accessing https://clash-meta.github.io/free-nodes/2025-12-25-free-high-speed-nodes.htm
-2025-12-30 04:39:30 [simple] INFO: clashmeta is up to date, exiting
-2025-12-30 04:39:30 [simple] INFO: v2rayshare needs update, accessing https://v2rayshare.net/p/4099.html
-2025-12-30 04:39:30 [simple] INFO: v2rayshare needs update, accessing https://v2rayshare.net/p/4100.html
-2025-12-30 04:39:30 [simple] INFO: v2rayshare needs update, accessing https://v2rayshare.net/p/4101.html
-2025-12-30 04:39:30 [simple] INFO: wenode needs update, accessing https://oneclash.cc/a/2294.html
-2025-12-30 04:39:30 [simple] INFO: wenode needs update, accessing https://oneclash.cc/a/2295.html
-2025-12-30 04:39:30 [simple] INFO: wenode needs update, accessing https://oneclash.cc/a/2296.html
-2025-12-30 04:39:30 [simple] INFO: nodev2ray needs update, accessing https://nodev2ray.com/free-node/2025-12-30-clash-v2ray-ss-ssr.htm
-2025-12-30 04:39:30 [simple] INFO: nodev2ray needs update, accessing https://nodev2ray.com/free-node/2025-12-29-free-v2ray.htm
-2025-12-30 04:39:30 [simple] INFO: nodev2ray needs update, accessing https://nodev2ray.com/free-node/2025-12-28-free-shadowrocket-node.htm
-2025-12-30 04:39:30 [simple] INFO: ndnode needs update, accessing https://www.naidounode.com/n/3470.html
-2025-12-30 04:39:30 [simple] INFO: ndnode needs update, accessing https://www.naidounode.com/n/3468.html
-2025-12-30 04:39:30 [simple] INFO: ndnode needs update, accessing https://www.naidounode.com/n/3466.html
-2025-12-30 04:39:30 [simple] INFO: v2rayshare found https://v2rayshare.githubrowcontent.com/2025/12/20251229.txt
-2025-12-30 04:39:30 [simple] INFO: v2rayshare found https://v2rayshare.githubrowcontent.com/2025/12/20251229.yaml
-2025-12-30 04:39:30 [simple] INFO: v2rayshare found https://v2rayshare.githubrowcontent.com/2025/12/20251229.yaml
-2025-12-30 04:39:31 [simple] INFO: nodefree needs update, accessing https://nodefree.me/p/2684.html
-2025-12-30 04:39:31 [simple] INFO: nodefree needs update, accessing https://nodefree.me/p/2685.html
-2025-12-30 04:39:31 [simple] INFO: nodefree needs update, accessing https://nodefree.me/p/2686.html
-2025-12-30 04:39:31 [simple] INFO: v2rayshare found https://v2rayshare.githubrowcontent.com/2025/12/20251228.txt
-2025-12-30 04:39:31 [simple] INFO: v2rayshare found https://v2rayshare.githubrowcontent.com/2025/12/20251228.yaml
-2025-12-30 04:39:31 [simple] INFO: v2rayshare found https://v2rayshare.githubrowcontent.com/2025/12/20251228.yaml
-2025-12-30 04:39:31 [simple] INFO: v2rayshare found https://v2rayshare.githubrowcontent.com/2025/12/20251227.txt
-2025-12-30 04:39:31 [simple] INFO: v2rayshare found https://v2rayshare.githubrowcontent.com/2025/12/20251227.yaml
-2025-12-30 04:39:31 [simple] INFO: v2rayshare found https://v2rayshare.githubrowcontent.com/2025/12/20251227.yaml
-2025-12-30 04:39:31 [simple] WARNING: wenode could not parse https://oneclash.githubrowcontent.com/2025/..."/, skipping
-2025-12-30 04:39:31 [simple] INFO: wenode found https://oneclash.githubrowcontent.com/2025/12/20251230.txt
-2025-12-30 04:39:31 [simple] INFO: wenode found https://oneclash.githubrowcontent.com/2025/12/20251230.yaml
-2025-12-30 04:39:31 [simple] INFO: wenode found https://oneclash.githubrowcontent.com/2025/12/m20251230.yaml
-2025-12-30 04:39:31 [simple] INFO: ndnode found http://naidounode.cczzuu.top/node/20251230-v2ray.txt
-2025-12-30 04:39:31 [simple] INFO: ndnode found http://naidounode.cczzuu.top/node/20251230-clash.yaml
-2025-12-30 04:39:31 [simple] WARNING: wenode could not parse https://oneclash.githubrowcontent.com/2025/1..."/, skipping
-2025-12-30 04:39:31 [simple] INFO: wenode found https://oneclash.githubrowcontent.com/2025/12/20251228.txt
-2025-12-30 04:39:31 [simple] INFO: wenode found https://oneclash.githubrowcontent.com/2025/12/20251228.yaml
-2025-12-30 04:39:31 [simple] INFO: wenode found https://oneclash.githubrowcontent.com/2025/12/m20251228.yaml
-2025-12-30 04:39:31 [simple] WARNING: wenode could not parse https://oneclash.githubrowcontent.com/2025/..."/, skipping
-2025-12-30 04:39:31 [simple] INFO: wenode found https://oneclash.githubrowcontent.com/2025/12/20251229.txt
-2025-12-30 04:39:31 [simple] INFO: wenode found https://oneclash.githubrowcontent.com/2025/12/20251229.yaml
-2025-12-30 04:39:31 [simple] INFO: wenode found https://oneclash.githubrowcontent.com/2025/12/m20251229.yaml
-2025-12-30 04:39:31 [simple] INFO: nodefree found https://nodefree.githubrowcontent.com/2025/12/20251230.txt
-2025-12-30 04:39:31 [simple] INFO: nodefree found https://nodefree.githubrowcontent.com/2025/12/20251230.yaml
-2025-12-30 04:39:31 [simple] INFO: nodefree found https://nodefree.githubrowcontent.com/2025/12/m20251230.yaml
-2025-12-30 04:39:31 [simple] INFO: ndnode found http://naidounode.cczzuu.top/node/20251229-v2ray.txt
-2025-12-30 04:39:31 [simple] INFO: ndnode found http://naidounode.cczzuu.top/node/20251229-clash.yaml
-2025-12-30 04:39:31 [simple] INFO: ndnode found http://naidounode.cczzuu.top/node/20251228-v2ray.txt
-2025-12-30 04:39:31 [simple] INFO: ndnode found http://naidounode.cczzuu.top/node/20251228-clash.yaml
-2025-12-30 04:39:31 [simple] INFO: nodefree found https://nodefree.githubrowcontent.com/2025/12/20251228.txt
-2025-12-30 04:39:31 [simple] INFO: nodefree found https://nodefree.githubrowcontent.com/2025/12/20251228.yaml
-2025-12-30 04:39:31 [simple] INFO: nodefree found https://nodefree.githubrowcontent.com/2025/12/m20251228.yaml
-2025-12-30 04:39:31 [simple] INFO: nodefree found https://nodefree.githubrowcontent.com/2025/12/20251229.txt
-2025-12-30 04:39:31 [simple] INFO: nodefree found https://nodefree.githubrowcontent.com/2025/12/20251229.yaml
-2025-12-30 04:39:31 [simple] INFO: nodefree found https://nodefree.githubrowcontent.com/2025/12/m20251229.yaml
-2025-12-30 04:39:31 [simple] INFO: nodev2ray found https://node.nodev2ray.com/uploads/2025/12/0-20251229.txt
-2025-12-30 04:39:31 [simple] INFO: nodev2ray found https://node.nodev2ray.com/uploads/2025/12/2-20251229.txt
-2025-12-30 04:39:31 [simple] INFO: nodev2ray found https://node.nodev2ray.com/uploads/2025/12/3-20251229.txt
-2025-12-30 04:39:31 [simple] INFO: nodev2ray found https://node.nodev2ray.com/uploads/2025/12/4-20251229.txt
-2025-12-30 04:39:31 [simple] INFO: nodev2ray found https://node.nodev2ray.com/uploads/2025/12/0-20251229.yaml
-2025-12-30 04:39:31 [simple] INFO: nodev2ray found https://node.nodev2ray.com/uploads/2025/12/1-20251229.yaml
-2025-12-30 04:39:31 [simple] INFO: nodev2ray found https://node.nodev2ray.com/uploads/2025/12/2-20251229.yaml
-2025-12-30 04:39:31 [simple] INFO: nodev2ray found https://node.nodev2ray.com/uploads/2025/12/4-20251229.yaml
-2025-12-30 04:39:31 [simple] WARNING: nodev2ray could not parse https://node.nodev2ray.com/uploads/2025/12/20251229.json, skipping
-2025-12-30 04:39:31 [simple] INFO: nodev2ray found https://node.nodev2ray.com/uploads/2025/12/0-20251228.txt
-2025-12-30 04:39:31 [simple] INFO: nodev2ray found https://node.nodev2ray.com/uploads/2025/12/2-20251228.txt
-2025-12-30 04:39:31 [simple] INFO: nodev2ray found https://node.nodev2ray.com/uploads/2025/12/3-20251228.txt
-2025-12-30 04:39:31 [simple] INFO: nodev2ray found https://node.nodev2ray.com/uploads/2025/12/0-20251228.yaml
-2025-12-30 04:39:31 [simple] INFO: nodev2ray found https://node.nodev2ray.com/uploads/2025/12/3-20251228.yaml
-2025-12-30 04:39:31 [simple] WARNING: nodev2ray could not parse https://node.nodev2ray.com/uploads/2025/12/20251228.json, skipping
-2025-12-30 04:39:31 [simple] INFO: nodev2ray found https://node.nodev2ray.com/uploads/2025/12/1-20251230.txt
-2025-12-30 04:39:31 [simple] INFO: nodev2ray found https://node.nodev2ray.com/uploads/2025/12/2-20251230.txt
-2025-12-30 04:39:31 [simple] INFO: nodev2ray found https://node.nodev2ray.com/uploads/2025/12/4-20251230.txt
-2025-12-30 04:39:31 [simple] INFO: nodev2ray found https://node.nodev2ray.com/uploads/2025/12/3-20251230.yaml
-2025-12-30 04:39:31 [simple] INFO: nodev2ray found https://node.nodev2ray.com/uploads/2025/12/4-20251230.yaml
-2025-12-30 04:39:31 [simple] WARNING: nodev2ray could not parse https://node.nodev2ray.com/uploads/2025/12/20251230.json, skipping
-2025-12-30 04:39:31 [simple] INFO: Pipeline got item v2rayshare.yaml
-2025-12-30 04:39:31 [simple] INFO: Pipeline processed v2rayshare.yaml
-2025-12-30 04:39:31 [simple] INFO: Pipeline got item v2rayshare.txt
-2025-12-30 04:39:31 [simple] INFO: Pipeline processed v2rayshare.txt
-2025-12-30 04:39:31 [simple] INFO: Pipeline got item v2rayshare.yaml
-2025-12-30 04:39:31 [simple] INFO: Pipeline processed v2rayshare.yaml
-2025-12-30 04:39:31 [simple] INFO: Pipeline got item wenode.txt
-2025-12-30 04:39:31 [simple] INFO: Pipeline processed wenode.txt
-2025-12-30 04:39:31 [simple] INFO: Pipeline got item v2rayshare.txt
-2025-12-30 04:39:31 [simple] INFO: Pipeline processed v2rayshare.txt
-2025-12-30 04:39:31 [simple] INFO: Pipeline got item wenode.yaml
-2025-12-30 04:39:31 [simple] INFO: Pipeline processed wenode.yaml
-2025-12-30 04:39:31 [simple] INFO: Pipeline got item v2rayshare.yaml
-2025-12-30 04:39:31 [simple] INFO: Pipeline processed v2rayshare.yaml
-2025-12-30 04:39:31 [simple] INFO: Pipeline got item v2rayshare.txt
-2025-12-30 04:39:31 [simple] INFO: Pipeline processed v2rayshare.txt
-2025-12-30 04:39:31 [simple] INFO: Pipeline got item wenode.txt
-2025-12-30 04:39:31 [simple] INFO: Pipeline processed wenode.txt
-2025-12-30 04:39:31 [simple] INFO: Pipeline got item wenode.yaml
-2025-12-30 04:39:31 [simple] INFO: Pipeline processed wenode.yaml
-2025-12-30 04:39:31 [simple] INFO: Pipeline got item wenode.yaml
-2025-12-30 04:39:31 [simple] INFO: Pipeline processed wenode.yaml
-2025-12-30 04:39:31 [simple] INFO: Pipeline got item wenode.yaml
-2025-12-30 04:39:31 [simple] INFO: Pipeline processed wenode.yaml
-2025-12-30 04:39:31 [simple] INFO: Pipeline got item wenode.yaml
-2025-12-30 04:39:31 [simple] INFO: Pipeline processed wenode.yaml
-2025-12-30 04:39:31 [simple] INFO: Pipeline got item ndnode.txt
-2025-12-30 04:39:31 [simple] INFO: Pipeline processed ndnode.txt
-2025-12-30 04:39:31 [simple] INFO: Pipeline got item ndnode.txt
-2025-12-30 04:39:31 [simple] INFO: Pipeline processed ndnode.txt
-2025-12-30 04:39:31 [simple] INFO: Pipeline got item ndnode.txt
-2025-12-30 04:39:31 [simple] INFO: Pipeline processed ndnode.txt
-2025-12-30 04:39:31 [simple] INFO: Pipeline got item wenode.txt
-2025-12-30 04:39:31 [simple] INFO: Pipeline processed wenode.txt
-2025-12-30 04:39:31 [simple] INFO: Pipeline got item wenode.yaml
-2025-12-30 04:39:31 [simple] INFO: Pipeline processed wenode.yaml
-2025-12-30 04:39:31 [simple] INFO: Pipeline got item nodefree.txt
-2025-12-30 04:39:31 [simple] INFO: Pipeline processed nodefree.txt
-2025-12-30 04:39:31 [simple] INFO: Pipeline got item nodefree.yaml
-2025-12-30 04:39:31 [simple] INFO: Pipeline processed nodefree.yaml
-2025-12-30 04:39:31 [simple] INFO: Pipeline got item nodefree.yaml
-2025-12-30 04:39:31 [simple] INFO: Pipeline processed nodefree.yaml
-2025-12-30 04:39:32 [simple] INFO: Pipeline got item nodefree.yaml
-2025-12-30 04:39:32 [simple] INFO: Pipeline processed nodefree.yaml
-2025-12-30 04:39:32 [simple] INFO: Pipeline got item nodefree.yaml
-2025-12-30 04:39:32 [simple] INFO: Pipeline processed nodefree.yaml
-2025-12-30 04:39:32 [simple] INFO: Pipeline got item nodefree.txt
-2025-12-30 04:39:32 [simple] INFO: Pipeline processed nodefree.txt
-2025-12-30 04:39:32 [simple] INFO: Pipeline got item ndnode.yaml
-2025-12-30 04:39:32 [simple] INFO: Pipeline processed ndnode.yaml
-2025-12-30 04:39:32 [simple] INFO: Pipeline got item ndnode.yaml
-2025-12-30 04:39:32 [simple] INFO: Pipeline processed ndnode.yaml
-2025-12-30 04:39:32 [simple] INFO: Pipeline got item ndnode.yaml
-2025-12-30 04:39:33 [simple] INFO: Pipeline processed ndnode.yaml
-2025-12-30 04:39:33 [simple] INFO: Pipeline got item nodev2ray.txt
-2025-12-30 04:39:33 [simple] INFO: Pipeline processed nodev2ray.txt
-2025-12-30 04:39:33 [simple] INFO: Pipeline got item nodev2ray.txt
-2025-12-30 04:39:33 [simple] INFO: Pipeline processed nodev2ray.txt
-2025-12-30 04:39:33 [simple] INFO: Pipeline got item nodev2ray.txt
-2025-12-30 04:39:33 [simple] INFO: Pipeline processed nodev2ray.txt
-2025-12-30 04:39:33 [simple] INFO: Pipeline got item nodev2ray.txt
-2025-12-30 04:39:33 [simple] INFO: Pipeline processed nodev2ray.txt
-2025-12-30 04:39:33 [simple] INFO: Pipeline got item nodev2ray.yaml
-2025-12-30 04:39:33 [simple] INFO: Pipeline processed nodev2ray.yaml
-2025-12-30 04:39:33 [simple] INFO: Pipeline got item nodev2ray.yaml
-2025-12-30 04:39:34 [simple] INFO: Pipeline processed nodev2ray.yaml
-2025-12-30 04:39:34 [simple] INFO: Pipeline got item nodefree.yaml
-2025-12-30 04:39:34 [simple] INFO: Pipeline processed nodefree.yaml
-2025-12-30 04:39:34 [simple] INFO: Pipeline got item nodev2ray.txt
-2025-12-30 04:39:34 [simple] INFO: Pipeline processed nodev2ray.txt
-2025-12-30 04:39:34 [simple] INFO: Pipeline got item nodev2ray.yaml
-2025-12-30 04:39:34 [simple] INFO: Pipeline processed nodev2ray.yaml
-2025-12-30 04:39:34 [simple] INFO: Pipeline got item nodefree.txt
-2025-12-30 04:39:34 [simple] INFO: Pipeline processed nodefree.txt
-2025-12-30 04:39:34 [simple] INFO: Pipeline got item nodefree.yaml
-2025-12-30 04:39:34 [simple] INFO: Pipeline processed nodefree.yaml
-2025-12-30 04:39:34 [simple] INFO: Pipeline got item nodev2ray.yaml
-2025-12-30 04:39:34 [simple] INFO: Pipeline processed nodev2ray.yaml
-2025-12-30 04:39:34 [simple] INFO: Pipeline got item nodev2ray.txt
-2025-12-30 04:39:34 [simple] INFO: Pipeline processed nodev2ray.txt
-2025-12-30 04:39:34 [simple] INFO: Pipeline got item nodev2ray.txt
-2025-12-30 04:39:34 [simple] INFO: Pipeline processed nodev2ray.txt
-2025-12-30 04:39:34 [simple] INFO: Pipeline got item nodev2ray.yaml
-2025-12-30 04:39:35 [simple] INFO: Pipeline processed nodev2ray.yaml
-2025-12-30 04:39:35 [simple] INFO: Pipeline got item nodev2ray.yaml
-2025-12-30 04:39:35 [simple] INFO: Pipeline processed nodev2ray.yaml
-2025-12-30 04:39:35 [simple] INFO: Pipeline got item nodev2ray.txt
-2025-12-30 04:39:35 [simple] INFO: Pipeline processed nodev2ray.txt
-2025-12-30 04:39:35 [simple] INFO: Pipeline got item nodev2ray.txt
-2025-12-30 04:39:35 [simple] INFO: Pipeline processed nodev2ray.txt
-2025-12-30 04:39:35 [simple] INFO: Pipeline got item nodev2ray.yaml
-2025-12-30 04:39:36 [simple] INFO: Pipeline processed nodev2ray.yaml
-2025-12-30 04:39:36 [simple] INFO: Pipeline got item nodev2ray.txt
-2025-12-30 04:39:36 [simple] INFO: Pipeline processed nodev2ray.txt
-2025-12-30 04:39:36 [simple] INFO: Pipeline got item nodev2ray.yaml
-2025-12-30 04:39:36 [simple] INFO: Pipeline processed nodev2ray.yaml
-2025-12-30 04:39:36 [scrapy.core.engine] INFO: Closing spider (finished)
-2025-12-30 04:39:36 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
-{'downloader/request_bytes': 29530,
- 'downloader/request_count': 73,
- 'downloader/request_method_count/GET': 73,
- 'downloader/response_bytes': 2694827,
- 'downloader/response_count': 73,
+2025-12-31 04:38:41 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2025-12-31 04:38:41 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2025-12-31 04:38:41 [simple] INFO: clashmeta start
+2025-12-31 04:38:41 [simple] INFO: ndnode start
+2025-12-31 04:38:41 [simple] INFO: nodev2ray start
+2025-12-31 04:38:41 [simple] INFO: nodefree start
+2025-12-31 04:38:41 [simple] INFO: v2rayshare start
+2025-12-31 04:38:41 [simple] INFO: wenode start
+2025-12-31 04:38:42 [simple] INFO: v2rayshare needs update, accessing https://v2rayshare.net/p/4097.html
+2025-12-31 04:38:42 [simple] INFO: v2rayshare needs update, accessing https://v2rayshare.net/p/4098.html
+2025-12-31 04:38:42 [simple] INFO: v2rayshare needs update, accessing https://v2rayshare.net/p/4099.html
+2025-12-31 04:38:42 [simple] INFO: wenode needs update, accessing https://oneclash.cc/a/2293.html
+2025-12-31 04:38:42 [simple] INFO: wenode needs update, accessing https://oneclash.cc/a/2294.html
+2025-12-31 04:38:42 [simple] INFO: wenode needs update, accessing https://oneclash.cc/a/2295.html
+2025-12-31 04:38:42 [simple] INFO: nodefree needs update, accessing https://nodefree.me/p/2683.html
+2025-12-31 04:38:42 [simple] INFO: nodefree needs update, accessing https://nodefree.me/p/2684.html
+2025-12-31 04:38:42 [simple] INFO: nodefree needs update, accessing https://nodefree.me/p/2685.html
+2025-12-31 04:38:42 [simple] INFO: v2rayshare found https://v2rayshare.githubrowcontent.com/2025/12/20251231.txt
+2025-12-31 04:38:42 [simple] INFO: v2rayshare found https://v2rayshare.githubrowcontent.com/2025/12/20251231.yaml
+2025-12-31 04:38:42 [simple] INFO: v2rayshare found https://v2rayshare.githubrowcontent.com/2025/12/20251231.yaml
+2025-12-31 04:38:42 [simple] INFO: clashmeta found /free-nodes/2025-12-25-free-high-speed-nodes.htm on 2025-03-01
+2025-12-31 04:38:42 [simple] INFO: clashmeta found /free-nodes/2025-12-24-clash-meta-windows.htm on 2025-03-01
+2025-12-31 04:38:42 [simple] INFO: clashmeta found /free-nodes/2025-12-23-clash-meta-node-github.htm on 2025-03-01
+2025-12-31 04:38:42 [simple] INFO: clashmeta found /free-nodes/2025-12-22-node-share.htm on 2025-03-01
+2025-12-31 04:38:42 [simple] INFO: clashmeta found /free-nodes/2025-12-21-free-high-speed-nodes.htm on 2025-03-01
+2025-12-31 04:38:42 [simple] INFO: clashmeta found /free-nodes/2025-12-20-free-clash-meta-node.htm on 2025-03-01
+2025-12-31 04:38:42 [simple] INFO: clashmeta found /free-nodes/2025-12-19-node-share.htm on 2025-03-01
+2025-12-31 04:38:42 [simple] INFO: clashmeta found /free-nodes/2025-12-18-clash-meta-windows.htm on 2025-03-01
+2025-12-31 04:38:42 [simple] INFO: clashmeta found /free-nodes/2025-12-17-clash-meta-node-share.htm on 2025-03-01
+2025-12-31 04:38:42 [simple] INFO: clashmeta found /free-nodes/2025-12-16-node-share.htm on 2025-03-01
+2025-12-31 04:38:42 [simple] INFO: clashmeta is up to date, exiting
+2025-12-31 04:38:42 [simple] INFO: clashmeta needs update, accessing https://clash-meta.github.io/free-nodes/2025-12-25-free-high-speed-nodes.htm
+2025-12-31 04:38:42 [simple] INFO: clashmeta is up to date, exiting
+2025-12-31 04:38:42 [simple] INFO: v2rayshare found https://v2rayshare.githubrowcontent.com/2025/12/20251229.txt
+2025-12-31 04:38:42 [simple] INFO: v2rayshare found https://v2rayshare.githubrowcontent.com/2025/12/20251229.yaml
+2025-12-31 04:38:42 [simple] INFO: v2rayshare found https://v2rayshare.githubrowcontent.com/2025/12/20251229.yaml
+2025-12-31 04:38:42 [simple] INFO: nodev2ray needs update, accessing https://nodev2ray.com/free-node/2025-12-31-free-node-subscribe-links.htm
+2025-12-31 04:38:42 [simple] INFO: nodev2ray needs update, accessing https://nodev2ray.com/free-node/2025-12-30-clash-v2ray-ss-ssr.htm
+2025-12-31 04:38:42 [simple] INFO: nodev2ray needs update, accessing https://nodev2ray.com/free-node/2025-12-29-free-v2ray.htm
+2025-12-31 04:38:42 [simple] INFO: v2rayshare found https://v2rayshare.githubrowcontent.com/2025/12/20251230.txt
+2025-12-31 04:38:42 [simple] INFO: v2rayshare found https://v2rayshare.githubrowcontent.com/2025/12/20251230.yaml
+2025-12-31 04:38:42 [simple] INFO: v2rayshare found https://v2rayshare.githubrowcontent.com/2025/12/20251230.yaml
+2025-12-31 04:38:42 [simple] INFO: nodefree found https://nodefree.githubrowcontent.com/2025/12/20251231.txt
+2025-12-31 04:38:42 [simple] INFO: nodefree found https://nodefree.githubrowcontent.com/2025/12/20251231.yaml
+2025-12-31 04:38:42 [simple] INFO: nodefree found https://nodefree.githubrowcontent.com/2025/12/m20251231.yaml
+2025-12-31 04:38:42 [simple] WARNING: wenode could not parse https://oneclash.githubrowcontent.com/2025/..."/, skipping
+2025-12-31 04:38:42 [simple] INFO: wenode found https://oneclash.githubrowcontent.com/2025/12/20251231.txt
+2025-12-31 04:38:42 [simple] INFO: wenode found https://oneclash.githubrowcontent.com/2025/12/20251231.yaml
+2025-12-31 04:38:42 [simple] INFO: wenode found https://oneclash.githubrowcontent.com/2025/12/m20251231.yaml
+2025-12-31 04:38:42 [simple] WARNING: wenode could not parse https://oneclash.githubrowcontent.com/2025/..."/, skipping
+2025-12-31 04:38:42 [simple] INFO: wenode found https://oneclash.githubrowcontent.com/2025/12/20251230.txt
+2025-12-31 04:38:42 [simple] INFO: wenode found https://oneclash.githubrowcontent.com/2025/12/20251230.yaml
+2025-12-31 04:38:42 [simple] INFO: wenode found https://oneclash.githubrowcontent.com/2025/12/m20251230.yaml
+2025-12-31 04:38:42 [simple] WARNING: wenode could not parse https://oneclash.githubrowcontent.com/2025/..."/, skipping
+2025-12-31 04:38:42 [simple] INFO: wenode found https://oneclash.githubrowcontent.com/2025/12/20251229.txt
+2025-12-31 04:38:42 [simple] INFO: wenode found https://oneclash.githubrowcontent.com/2025/12/20251229.yaml
+2025-12-31 04:38:42 [simple] INFO: wenode found https://oneclash.githubrowcontent.com/2025/12/m20251229.yaml
+2025-12-31 04:38:42 [simple] INFO: nodefree found https://nodefree.githubrowcontent.com/2025/12/20251230.txt
+2025-12-31 04:38:42 [simple] INFO: nodefree found https://nodefree.githubrowcontent.com/2025/12/20251230.yaml
+2025-12-31 04:38:42 [simple] INFO: nodefree found https://nodefree.githubrowcontent.com/2025/12/m20251230.yaml
+2025-12-31 04:38:42 [simple] INFO: nodefree found https://nodefree.githubrowcontent.com/2025/12/20251229.txt
+2025-12-31 04:38:42 [simple] INFO: nodefree found https://nodefree.githubrowcontent.com/2025/12/20251229.yaml
+2025-12-31 04:38:42 [simple] INFO: nodefree found https://nodefree.githubrowcontent.com/2025/12/m20251229.yaml
+2025-12-31 04:38:42 [simple] INFO: ndnode needs update, accessing https://www.naidounode.com/n/3472.html
+2025-12-31 04:38:42 [simple] INFO: ndnode needs update, accessing https://www.naidounode.com/n/3470.html
+2025-12-31 04:38:42 [simple] INFO: ndnode needs update, accessing https://www.naidounode.com/n/3468.html
+2025-12-31 04:38:42 [simple] INFO: Pipeline got item v2rayshare.yaml
+2025-12-31 04:38:42 [simple] INFO: Pipeline processed v2rayshare.yaml
+2025-12-31 04:38:42 [simple] INFO: Pipeline got item v2rayshare.txt
+2025-12-31 04:38:42 [simple] INFO: Pipeline processed v2rayshare.txt
+2025-12-31 04:38:42 [simple] INFO: Pipeline got item v2rayshare.yaml
+2025-12-31 04:38:42 [simple] INFO: Pipeline processed v2rayshare.yaml
+2025-12-31 04:38:42 [simple] INFO: Pipeline got item nodefree.txt
+2025-12-31 04:38:42 [simple] INFO: Pipeline processed nodefree.txt
+2025-12-31 04:38:42 [simple] INFO: Pipeline got item v2rayshare.txt
+2025-12-31 04:38:42 [simple] INFO: Pipeline processed v2rayshare.txt
+2025-12-31 04:38:42 [simple] INFO: Pipeline got item nodefree.yaml
+2025-12-31 04:38:42 [simple] INFO: Pipeline processed nodefree.yaml
+2025-12-31 04:38:42 [simple] INFO: Pipeline got item nodefree.yaml
+2025-12-31 04:38:42 [simple] INFO: Pipeline processed nodefree.yaml
+2025-12-31 04:38:42 [simple] INFO: Pipeline got item v2rayshare.txt
+2025-12-31 04:38:42 [simple] INFO: Pipeline processed v2rayshare.txt
+2025-12-31 04:38:42 [simple] INFO: nodev2ray found https://node.nodev2ray.com/uploads/2025/12/0-20251231.txt
+2025-12-31 04:38:42 [simple] INFO: nodev2ray found https://node.nodev2ray.com/uploads/2025/12/1-20251231.txt
+2025-12-31 04:38:42 [simple] INFO: nodev2ray found https://node.nodev2ray.com/uploads/2025/12/2-20251231.txt
+2025-12-31 04:38:42 [simple] INFO: nodev2ray found https://node.nodev2ray.com/uploads/2025/12/4-20251231.txt
+2025-12-31 04:38:42 [simple] INFO: nodev2ray found https://node.nodev2ray.com/uploads/2025/12/0-20251231.yaml
+2025-12-31 04:38:42 [simple] INFO: nodev2ray found https://node.nodev2ray.com/uploads/2025/12/1-20251231.yaml
+2025-12-31 04:38:42 [simple] INFO: nodev2ray found https://node.nodev2ray.com/uploads/2025/12/4-20251231.yaml
+2025-12-31 04:38:42 [simple] WARNING: nodev2ray could not parse https://node.nodev2ray.com/uploads/2025/12/20251231.json, skipping
+2025-12-31 04:38:42 [simple] INFO: nodev2ray found https://node.nodev2ray.com/uploads/2025/12/1-20251230.txt
+2025-12-31 04:38:42 [simple] INFO: nodev2ray found https://node.nodev2ray.com/uploads/2025/12/2-20251230.txt
+2025-12-31 04:38:42 [simple] INFO: nodev2ray found https://node.nodev2ray.com/uploads/2025/12/4-20251230.txt
+2025-12-31 04:38:42 [simple] INFO: nodev2ray found https://node.nodev2ray.com/uploads/2025/12/3-20251230.yaml
+2025-12-31 04:38:42 [simple] INFO: nodev2ray found https://node.nodev2ray.com/uploads/2025/12/4-20251230.yaml
+2025-12-31 04:38:42 [simple] WARNING: nodev2ray could not parse https://node.nodev2ray.com/uploads/2025/12/20251230.json, skipping
+2025-12-31 04:38:42 [simple] INFO: nodev2ray found https://node.nodev2ray.com/uploads/2025/12/0-20251229.txt
+2025-12-31 04:38:42 [simple] INFO: nodev2ray found https://node.nodev2ray.com/uploads/2025/12/2-20251229.txt
+2025-12-31 04:38:42 [simple] INFO: nodev2ray found https://node.nodev2ray.com/uploads/2025/12/3-20251229.txt
+2025-12-31 04:38:42 [simple] INFO: nodev2ray found https://node.nodev2ray.com/uploads/2025/12/4-20251229.txt
+2025-12-31 04:38:42 [simple] INFO: nodev2ray found https://node.nodev2ray.com/uploads/2025/12/0-20251229.yaml
+2025-12-31 04:38:42 [simple] INFO: nodev2ray found https://node.nodev2ray.com/uploads/2025/12/1-20251229.yaml
+2025-12-31 04:38:42 [simple] INFO: nodev2ray found https://node.nodev2ray.com/uploads/2025/12/2-20251229.yaml
+2025-12-31 04:38:42 [simple] INFO: nodev2ray found https://node.nodev2ray.com/uploads/2025/12/4-20251229.yaml
+2025-12-31 04:38:42 [simple] WARNING: nodev2ray could not parse https://node.nodev2ray.com/uploads/2025/12/20251229.json, skipping
+2025-12-31 04:38:42 [simple] INFO: Pipeline got item wenode.yaml
+2025-12-31 04:38:43 [simple] INFO: Pipeline processed wenode.yaml
+2025-12-31 04:38:43 [simple] INFO: Pipeline got item v2rayshare.yaml
+2025-12-31 04:38:43 [simple] INFO: Pipeline processed v2rayshare.yaml
+2025-12-31 04:38:43 [simple] INFO: Pipeline got item wenode.txt
+2025-12-31 04:38:43 [simple] INFO: Pipeline processed wenode.txt
+2025-12-31 04:38:43 [simple] INFO: ndnode found http://naidounode.cczzuu.top/node/20251231-v2ray.txt
+2025-12-31 04:38:43 [simple] INFO: ndnode found http://naidounode.cczzuu.top/node/20251231-clash.yaml
+2025-12-31 04:38:43 [simple] INFO: Pipeline got item wenode.yaml
+2025-12-31 04:38:43 [simple] INFO: Pipeline processed wenode.yaml
+2025-12-31 04:38:43 [simple] INFO: Pipeline got item wenode.txt
+2025-12-31 04:38:43 [simple] INFO: Pipeline processed wenode.txt
+2025-12-31 04:38:43 [simple] INFO: Pipeline got item nodefree.txt
+2025-12-31 04:38:43 [simple] INFO: Pipeline processed nodefree.txt
+2025-12-31 04:38:43 [simple] INFO: Pipeline got item nodefree.yaml
+2025-12-31 04:38:43 [simple] INFO: Pipeline processed nodefree.yaml
+2025-12-31 04:38:43 [simple] INFO: Pipeline got item nodefree.yaml
+2025-12-31 04:38:43 [simple] INFO: Pipeline processed nodefree.yaml
+2025-12-31 04:38:43 [simple] INFO: Pipeline got item wenode.yaml
+2025-12-31 04:38:43 [simple] INFO: Pipeline processed wenode.yaml
+2025-12-31 04:38:43 [simple] INFO: Pipeline got item nodefree.txt
+2025-12-31 04:38:43 [simple] INFO: Pipeline processed nodefree.txt
+2025-12-31 04:38:43 [simple] INFO: Pipeline got item wenode.txt
+2025-12-31 04:38:43 [simple] INFO: Pipeline processed wenode.txt
+2025-12-31 04:38:43 [simple] INFO: Pipeline got item wenode.yaml
+2025-12-31 04:38:43 [simple] INFO: Pipeline processed wenode.yaml
+2025-12-31 04:38:43 [simple] INFO: Pipeline got item wenode.yaml
+2025-12-31 04:38:43 [simple] INFO: Pipeline processed wenode.yaml
+2025-12-31 04:38:43 [simple] INFO: Pipeline got item nodefree.yaml
+2025-12-31 04:38:43 [simple] INFO: Pipeline processed nodefree.yaml
+2025-12-31 04:38:43 [simple] INFO: Pipeline got item nodefree.yaml
+2025-12-31 04:38:43 [simple] INFO: Pipeline processed nodefree.yaml
+2025-12-31 04:38:43 [simple] INFO: Pipeline got item wenode.yaml
+2025-12-31 04:38:43 [simple] INFO: Pipeline processed wenode.yaml
+2025-12-31 04:38:43 [simple] INFO: ndnode found http://naidounode.cczzuu.top/node/20251230-v2ray.txt
+2025-12-31 04:38:43 [simple] INFO: ndnode found http://naidounode.cczzuu.top/node/20251230-clash.yaml
+2025-12-31 04:38:43 [simple] INFO: ndnode found http://naidounode.cczzuu.top/node/20251229-v2ray.txt
+2025-12-31 04:38:43 [simple] INFO: ndnode found http://naidounode.cczzuu.top/node/20251229-clash.yaml
+2025-12-31 04:38:43 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 https://node.nodev2ray.com/uploads/2025/12/0-20251231.txt>: HTTP status code is not handled or not allowed
+2025-12-31 04:38:43 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 https://node.nodev2ray.com/uploads/2025/12/0-20251231.yaml>: HTTP status code is not handled or not allowed
+2025-12-31 04:38:43 [simple] INFO: Pipeline got item nodev2ray.txt
+2025-12-31 04:38:43 [simple] INFO: Pipeline processed nodev2ray.txt
+2025-12-31 04:38:43 [simple] INFO: Pipeline got item nodev2ray.txt
+2025-12-31 04:38:43 [simple] INFO: Pipeline processed nodev2ray.txt
+2025-12-31 04:38:43 [simple] INFO: Pipeline got item nodev2ray.txt
+2025-12-31 04:38:43 [simple] INFO: Pipeline processed nodev2ray.txt
+2025-12-31 04:38:43 [simple] INFO: Pipeline got item nodev2ray.yaml
+2025-12-31 04:38:44 [simple] INFO: Pipeline processed nodev2ray.yaml
+2025-12-31 04:38:44 [simple] INFO: Pipeline got item nodev2ray.txt
+2025-12-31 04:38:44 [simple] INFO: Pipeline processed nodev2ray.txt
+2025-12-31 04:38:44 [simple] INFO: Pipeline got item nodev2ray.txt
+2025-12-31 04:38:44 [simple] INFO: Pipeline processed nodev2ray.txt
+2025-12-31 04:38:44 [simple] INFO: Pipeline got item nodev2ray.txt
+2025-12-31 04:38:44 [simple] INFO: Pipeline processed nodev2ray.txt
+2025-12-31 04:38:44 [simple] INFO: Pipeline got item nodev2ray.yaml
+2025-12-31 04:38:44 [simple] INFO: Pipeline processed nodev2ray.yaml
+2025-12-31 04:38:44 [simple] INFO: Pipeline got item nodev2ray.txt
+2025-12-31 04:38:44 [simple] INFO: Pipeline processed nodev2ray.txt
+2025-12-31 04:38:44 [simple] INFO: Pipeline got item nodev2ray.yaml
+2025-12-31 04:38:44 [simple] INFO: Pipeline processed nodev2ray.yaml
+2025-12-31 04:38:44 [simple] INFO: Pipeline got item nodev2ray.yaml
+2025-12-31 04:38:45 [simple] INFO: Pipeline processed nodev2ray.yaml
+2025-12-31 04:38:45 [simple] INFO: Pipeline got item nodev2ray.txt
+2025-12-31 04:38:45 [simple] INFO: Pipeline processed nodev2ray.txt
+2025-12-31 04:38:45 [simple] INFO: Pipeline got item nodev2ray.txt
+2025-12-31 04:38:45 [simple] INFO: Pipeline processed nodev2ray.txt
+2025-12-31 04:38:45 [simple] INFO: Pipeline got item nodev2ray.yaml
+2025-12-31 04:38:46 [simple] INFO: Pipeline processed nodev2ray.yaml
+2025-12-31 04:38:46 [simple] INFO: Pipeline got item nodev2ray.yaml
+2025-12-31 04:38:46 [simple] INFO: Pipeline processed nodev2ray.yaml
+2025-12-31 04:38:46 [simple] INFO: Pipeline got item nodev2ray.txt
+2025-12-31 04:38:46 [simple] INFO: Pipeline processed nodev2ray.txt
+2025-12-31 04:38:46 [simple] INFO: Pipeline got item nodev2ray.yaml
+2025-12-31 04:38:46 [simple] INFO: Pipeline processed nodev2ray.yaml
+2025-12-31 04:38:46 [simple] INFO: Pipeline got item nodev2ray.yaml
+2025-12-31 04:38:47 [simple] INFO: Pipeline processed nodev2ray.yaml
+2025-12-31 04:38:47 [simple] INFO: Pipeline got item ndnode.txt
+2025-12-31 04:38:47 [simple] INFO: Pipeline processed ndnode.txt
+2025-12-31 04:38:47 [simple] INFO: Pipeline got item ndnode.txt
+2025-12-31 04:38:47 [simple] INFO: Pipeline processed ndnode.txt
+2025-12-31 04:38:47 [simple] INFO: Pipeline got item ndnode.txt
+2025-12-31 04:38:47 [simple] INFO: Pipeline processed ndnode.txt
+2025-12-31 04:38:47 [simple] INFO: Pipeline got item ndnode.yaml
+2025-12-31 04:38:47 [simple] INFO: Pipeline processed ndnode.yaml
+2025-12-31 04:38:47 [simple] INFO: Pipeline got item ndnode.yaml
+2025-12-31 04:38:48 [simple] INFO: Pipeline processed ndnode.yaml
+2025-12-31 04:38:48 [simple] INFO: Pipeline got item ndnode.yaml
+2025-12-31 04:38:48 [simple] INFO: Pipeline processed ndnode.yaml
+2025-12-31 04:38:48 [scrapy.core.engine] INFO: Closing spider (finished)
+2025-12-31 04:38:48 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 30870,
+ 'downloader/request_count': 75,
+ 'downloader/request_method_count/GET': 75,
+ 'downloader/response_bytes': 3421860,
+ 'downloader/response_count': 75,
  'downloader/response_status_count/200': 70,
  'downloader/response_status_count/301': 3,
+ 'downloader/response_status_count/404': 2,
  'dupefilter/filtered': 3,
- 'elapsed_time_seconds': 6.494665,
+ 'elapsed_time_seconds': 6.53231,
  'finish_reason': 'finished',
- 'finish_time': datetime.datetime(2025, 12, 30, 4, 39, 36, 614566, tzinfo=datetime.timezone.utc),
- 'httpcompression/response_bytes': 1217053,
- 'httpcompression/response_count': 44,
+ 'finish_time': datetime.datetime(2025, 12, 31, 4, 38, 48, 323421, tzinfo=datetime.timezone.utc),
+ 'httpcompression/response_bytes': 1329039,
+ 'httpcompression/response_count': 46,
+ 'httperror/response_ignored_count': 2,
+ 'httperror/response_ignored_status_count/404': 2,
  'item_scraped_count': 48,
  'items_per_minute': 480.0,
- 'log_count/INFO': 191,
+ 'log_count/INFO': 195,
  'log_count/WARNING': 8,
- 'memusage/max': 181878784,
- 'memusage/startup': 181878784,
+ 'memusage/max': 182202368,
+ 'memusage/startup': 182202368,
  'request_depth_max': 2,
- 'response_received_count': 70,
- 'responses_per_minute': 700.0,
- 'scheduler/dequeued': 73,
- 'scheduler/dequeued/memory': 73,
- 'scheduler/enqueued': 73,
- 'scheduler/enqueued/memory': 73,
- 'start_time': datetime.datetime(2025, 12, 30, 4, 39, 30, 119901, tzinfo=datetime.timezone.utc)}
-2025-12-30 04:39:36 [scrapy.core.engine] INFO: Spider closed (finished)
-2025-12-30 04:39:45 [scrapy.addons] INFO: Enabled addons:
+ 'response_received_count': 72,
+ 'responses_per_minute': 720.0,
+ 'scheduler/dequeued': 75,
+ 'scheduler/dequeued/memory': 75,
+ 'scheduler/enqueued': 75,
+ 'scheduler/enqueued/memory': 75,
+ 'start_time': datetime.datetime(2025, 12, 31, 4, 38, 41, 791111, tzinfo=datetime.timezone.utc)}
+2025-12-31 04:38:48 [scrapy.core.engine] INFO: Spider closed (finished)
+2025-12-31 04:38:50 [scrapy.addons] INFO: Enabled addons:
 []
-2025-12-30 04:39:45 [py.warnings] WARNING: /opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/scrapy/utils/request.py:120: ScrapyDeprecationWarning: 'REQUEST_FINGERPRINTER_IMPLEMENTATION' is a deprecated setting.
+2025-12-31 04:38:50 [py.warnings] WARNING: /opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/scrapy/utils/request.py:120: ScrapyDeprecationWarning: 'REQUEST_FINGERPRINTER_IMPLEMENTATION' is a deprecated setting.
 It will be removed in a future version of Scrapy.
   return cls(crawler)
 
-2025-12-30 04:39:45 [scrapy.extensions.telnet] INFO: Telnet Password: 08ce2bce96ce5636
-2025-12-30 04:39:45 [scrapy.middleware] INFO: Enabled extensions:
+2025-12-31 04:38:50 [scrapy.extensions.telnet] INFO: Telnet Password: 837114416bc9bb24
+2025-12-31 04:38:50 [scrapy.middleware] INFO: Enabled extensions:
 ['scrapy.extensions.corestats.CoreStats',
  'scrapy.extensions.telnet.TelnetConsole',
  'scrapy.extensions.memusage.MemoryUsage',
  'scrapy.extensions.logstats.LogStats']
-2025-12-30 04:39:45 [scrapy.crawler] INFO: Overridden settings:
+2025-12-31 04:38:50 [scrapy.crawler] INFO: Overridden settings:
 {'BOT_NAME': 'NodeScrapy',
  'FEED_EXPORT_ENCODING': 'utf-8',
  'LOG_FILE': 'scrapy.log',
@@ -263,7 +270,7 @@ It will be removed in a future version of Scrapy.
  'NEWSPIDER_MODULE': 'NodeScrapy.spiders',
  'REQUEST_FINGERPRINTER_IMPLEMENTATION': '2.7',
  'SPIDER_MODULES': ['NodeScrapy.spiders']}
-2025-12-30 04:39:45 [scrapy.middleware] INFO: Enabled downloader middlewares:
+2025-12-31 04:38:50 [scrapy.middleware] INFO: Enabled downloader middlewares:
 ['scrapy.downloadermiddlewares.offsite.OffsiteMiddleware',
  'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
  'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
@@ -277,118 +284,115 @@ It will be removed in a future version of Scrapy.
  'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
  'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
  'scrapy.downloadermiddlewares.stats.DownloaderStats']
-2025-12-30 04:39:45 [scrapy.middleware] INFO: Enabled spider middlewares:
+2025-12-31 04:38:50 [scrapy.middleware] INFO: Enabled spider middlewares:
 ['scrapy.spidermiddlewares.start.StartSpiderMiddleware',
  'scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
  'scrapy.spidermiddlewares.referer.RefererMiddleware',
  'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
  'scrapy.spidermiddlewares.depth.DepthMiddleware']
-2025-12-30 04:39:45 [scrapy.middleware] INFO: Enabled item pipelines:
+2025-12-31 04:38:50 [scrapy.middleware] INFO: Enabled item pipelines:
 ['NodeScrapy.pipelines.Pipeline']
-2025-12-30 04:39:45 [scrapy.core.engine] INFO: Spider opened
-2025-12-30 04:39:45 [py.warnings] WARNING: /opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/scrapy/core/spidermw.py:433: ScrapyDeprecationWarning: NodeScrapy.spiders.SimpleSpider.SimpleSpider (inherited by NodeScrapy.spiders.DecryptSpider.DecryptSpider) defines the deprecated start_requests() method. start_requests() has been deprecated in favor of a new method, start(), to support asynchronous code execution. start_requests() will stop being called in a future version of Scrapy. If you use Scrapy 2.13 or higher only, replace start_requests() with start(); note that start() is a coroutine (async def). If you need to maintain compatibility with lower Scrapy versions, when overriding start_requests() in a spider class, override start() as well; you can use super() to reuse the inherited start() implementation without copy-pasting. See the release notes of Scrapy 2.13 for details: https://docs.scrapy.org/en/2.13/news.html
+2025-12-31 04:38:50 [scrapy.core.engine] INFO: Spider opened
+2025-12-31 04:38:50 [py.warnings] WARNING: /opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/scrapy/core/spidermw.py:433: ScrapyDeprecationWarning: NodeScrapy.spiders.SimpleSpider.SimpleSpider (inherited by NodeScrapy.spiders.DecryptSpider.DecryptSpider) defines the deprecated start_requests() method. start_requests() has been deprecated in favor of a new method, start(), to support asynchronous code execution. start_requests() will stop being called in a future version of Scrapy. If you use Scrapy 2.13 or higher only, replace start_requests() with start(); note that start() is a coroutine (async def). If you need to maintain compatibility with lower Scrapy versions, when overriding start_requests() in a spider class, override start() as well; you can use super() to reuse the inherited start() implementation without copy-pasting. See the release notes of Scrapy 2.13 for details: https://docs.scrapy.org/en/2.13/news.html
   warn(
 
-2025-12-30 04:39:45 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
-2025-12-30 04:39:45 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
-2025-12-30 04:39:45 [decrypt] INFO: yudou66 start
-2025-12-30 04:39:45 [decrypt] INFO: blues start
-2025-12-30 04:39:45 [decrypt] INFO: blues needs update, accessing https://blues2022.blogspot.com/2025/12/202512294kchatgpt4k8kclashv2ray.html
-2025-12-30 04:39:45 [decrypt] INFO: blues needs update, accessing https://blues2022.blogspot.com/2025/12/202512284kchatgpt4k8kclashv2ray.html
-2025-12-30 04:39:45 [decrypt] INFO: blues needs update, accessing https://blues2022.blogspot.com/2025/12/202512274kchatgpt4k8kclashv2ray.html
-2025-12-30 04:39:48 [decrypt] WARNING: blues 0033 got 密碼錯誤
-2025-12-30 04:39:49 [decrypt] WARNING: blues 0000 got 密碼錯誤
-2025-12-30 04:39:50 [decrypt] WARNING: blues 0011 got 密碼錯誤
-2025-12-30 04:39:51 [decrypt] WARNING: blues 0022 got 密碼錯誤
-2025-12-30 04:39:52 [decrypt] WARNING: blues 0033 got 密碼錯誤
-2025-12-30 04:39:54 [decrypt] WARNING: blues 0044 got 密碼錯誤
-2025-12-30 04:39:55 [decrypt] WARNING: blues 0055 got 密碼錯誤
-2025-12-30 04:39:56 [decrypt] WARNING: blues 0066 got 密碼錯誤
-2025-12-30 04:39:57 [decrypt] WARNING: blues 0077 got 密碼錯誤
-2025-12-30 04:39:58 [decrypt] WARNING: blues 0088 got 密碼錯誤
-2025-12-30 04:40:00 [decrypt] WARNING: blues 0099 got 密碼錯誤
-2025-12-30 04:40:01 [decrypt] WARNING: blues 1100 got 密碼錯誤
-2025-12-30 04:40:02 [decrypt] WARNING: blues 1111 got 密碼錯誤
-2025-12-30 04:40:03 [decrypt] WARNING: blues 1122 got 密碼錯誤
-2025-12-30 04:40:04 [decrypt] WARNING: blues 1133 got 密碼錯誤
-2025-12-30 04:40:05 [decrypt] WARNING: blues 1144 got 密碼錯誤
-2025-12-30 04:40:06 [decrypt] WARNING: blues 1155 got 密碼錯誤
-2025-12-30 04:40:07 [decrypt] WARNING: blues 1166 got 密碼錯誤
-2025-12-30 04:40:08 [decrypt] WARNING: blues 1177 got 密碼錯誤
-2025-12-30 04:40:09 [decrypt] WARNING: blues 1188 got 密碼錯誤
-2025-12-30 04:40:10 [decrypt] WARNING: blues 1199 got 密碼錯誤
-2025-12-30 04:40:13 [decrypt] INFO: blues saved new password 2200
-2025-12-30 04:40:13 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 https://www.yudou6677.top/?m=1>: HTTP status code is not handled or not allowed
-2025-12-30 04:40:14 [decrypt] WARNING: blues 2200 got 密碼錯誤
-2025-12-30 04:40:15 [decrypt] WARNING: blues 0000 got 密碼錯誤
-2025-12-30 04:40:16 [decrypt] WARNING: blues 0011 got 密碼錯誤
-2025-12-30 04:40:17 [decrypt] WARNING: blues 0022 got 密碼錯誤
-2025-12-30 04:40:18 [decrypt] WARNING: blues 0033 got 密碼錯誤
-2025-12-30 04:40:19 [decrypt] WARNING: blues 0044 got 密碼錯誤
-2025-12-30 04:40:20 [decrypt] WARNING: blues 0055 got 密碼錯誤
-2025-12-30 04:40:21 [decrypt] WARNING: blues 0066 got 密碼錯誤
-2025-12-30 04:40:22 [decrypt] WARNING: blues 0077 got 密碼錯誤
-2025-12-30 04:40:23 [decrypt] WARNING: blues 0088 got 密碼錯誤
-2025-12-30 04:40:24 [decrypt] WARNING: blues 0099 got 密碼錯誤
-2025-12-30 04:40:25 [decrypt] WARNING: blues 1100 got 密碼錯誤
-2025-12-30 04:40:26 [decrypt] WARNING: blues 1111 got 密碼錯誤
-2025-12-30 04:40:27 [decrypt] WARNING: blues 1122 got 密碼錯誤
-2025-12-30 04:40:28 [decrypt] WARNING: blues 1133 got 密碼錯誤
-2025-12-30 04:40:29 [decrypt] WARNING: blues 1144 got 密碼錯誤
-2025-12-30 04:40:30 [decrypt] WARNING: blues 1155 got 密碼錯誤
-2025-12-30 04:40:31 [decrypt] WARNING: blues 1166 got 密碼錯誤
-2025-12-30 04:40:32 [decrypt] WARNING: blues 1177 got 密碼錯誤
-2025-12-30 04:40:33 [decrypt] WARNING: blues 1188 got 密碼錯誤
-2025-12-30 04:40:34 [decrypt] WARNING: blues 1199 got 密碼錯誤
-2025-12-30 04:40:35 [decrypt] WARNING: blues 2200 got 密碼錯誤
-2025-12-30 04:40:36 [decrypt] WARNING: blues 2211 got 密碼錯誤
-2025-12-30 04:40:37 [decrypt] WARNING: blues 2222 got 密碼錯誤
-2025-12-30 04:40:38 [decrypt] WARNING: blues 2233 got 密碼錯誤
-2025-12-30 04:40:39 [decrypt] WARNING: blues 2244 got 密碼錯誤
-2025-12-30 04:40:40 [decrypt] WARNING: blues 2255 got 密碼錯誤
-2025-12-30 04:40:41 [decrypt] WARNING: blues 2266 got 密碼錯誤
-2025-12-30 04:40:42 [decrypt] WARNING: blues 2277 got 密碼錯誤
-2025-12-30 04:40:44 [decrypt] WARNING: blues 2288 got 密碼錯誤
-2025-12-30 04:40:45 [decrypt] WARNING: blues 2299 got 密碼錯誤
-2025-12-30 04:40:46 [decrypt] WARNING: blues 3300 got 密碼錯誤
-2025-12-30 04:40:47 [decrypt] WARNING: blues 3311 got 密碼錯誤
-2025-12-30 04:40:48 [decrypt] WARNING: blues 3322 got 密碼錯誤
-2025-12-30 04:40:49 [decrypt] WARNING: blues 3333 got 密碼錯誤
-2025-12-30 04:40:52 [decrypt] INFO: blues saved new password 3344
-2025-12-30 04:40:53 [decrypt] WARNING: blues 3344 got 密碼錯誤
-2025-12-30 04:40:54 [decrypt] WARNING: blues 0000 got 密碼錯誤
-2025-12-30 04:40:55 [decrypt] WARNING: blues 0011 got 密碼錯誤
-2025-12-30 04:40:56 [decrypt] WARNING: blues 0022 got 密碼錯誤
-2025-12-30 04:40:59 [decrypt] INFO: blues saved new password 0033
-2025-12-30 04:40:59 [scrapy.extensions.logstats] INFO: Crawled 5 pages (at 5 pages/min), scraped 0 items (at 0 items/min)
-2025-12-30 04:40:59 [scrapy.core.engine] INFO: Closing spider (finished)
-2025-12-30 04:40:59 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
-{'downloader/request_bytes': 3362,
- 'downloader/request_count': 9,
- 'downloader/request_method_count/GET': 9,
- 'downloader/response_bytes': 209763,
- 'downloader/response_count': 9,
+2025-12-31 04:38:50 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2025-12-31 04:38:50 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2025-12-31 04:38:50 [decrypt] INFO: yudou66 start
+2025-12-31 04:38:50 [decrypt] INFO: blues start
+2025-12-31 04:38:50 [decrypt] INFO: blues needs update, accessing https://blues2022.blogspot.com/2025/12/202512294kchatgpt4k8kclashv2ray.html
+2025-12-31 04:38:50 [decrypt] INFO: blues needs update, accessing https://blues2022.blogspot.com/2025/12/202512284kchatgpt4k8kclashv2ray.html
+2025-12-31 04:38:50 [decrypt] INFO: blues needs update, accessing https://blues2022.blogspot.com/2025/12/202512274kchatgpt4k8kclashv2ray.html
+2025-12-31 04:38:52 [decrypt] WARNING: blues 0033 got 密碼錯誤
+2025-12-31 04:38:53 [decrypt] WARNING: blues 0000 got 密碼錯誤
+2025-12-31 04:38:54 [decrypt] WARNING: blues 0011 got 密碼錯誤
+2025-12-31 04:38:56 [decrypt] WARNING: blues 0022 got 密碼錯誤
+2025-12-31 04:38:56 [decrypt] WARNING: blues 0033 got 密碼錯誤
+2025-12-31 04:38:57 [decrypt] WARNING: blues 0044 got 密碼錯誤
+2025-12-31 04:38:58 [decrypt] WARNING: blues 0055 got 密碼錯誤
+2025-12-31 04:38:59 [decrypt] WARNING: blues 0066 got 密碼錯誤
+2025-12-31 04:39:00 [decrypt] WARNING: blues 0077 got 密碼錯誤
+2025-12-31 04:39:02 [decrypt] WARNING: blues 0088 got 密碼錯誤
+2025-12-31 04:39:03 [decrypt] WARNING: blues 0099 got 密碼錯誤
+2025-12-31 04:39:06 [decrypt] INFO: blues saved new password 1100
+2025-12-31 04:39:07 [decrypt] WARNING: blues 1100 got 密碼錯誤
+2025-12-31 04:39:08 [decrypt] WARNING: blues 0000 got 密碼錯誤
+2025-12-31 04:39:09 [decrypt] WARNING: blues 0011 got 密碼錯誤
+2025-12-31 04:39:10 [decrypt] WARNING: blues 0022 got 密碼錯誤
+2025-12-31 04:39:11 [decrypt] WARNING: blues 0033 got 密碼錯誤
+2025-12-31 04:39:12 [decrypt] WARNING: blues 0044 got 密碼錯誤
+2025-12-31 04:39:13 [decrypt] WARNING: blues 0055 got 密碼錯誤
+2025-12-31 04:39:14 [decrypt] WARNING: blues 0066 got 密碼錯誤
+2025-12-31 04:39:14 [decrypt] WARNING: blues 0077 got 密碼錯誤
+2025-12-31 04:39:15 [decrypt] WARNING: blues 0088 got 密碼錯誤
+2025-12-31 04:39:16 [decrypt] WARNING: blues 0099 got 密碼錯誤
+2025-12-31 04:39:17 [decrypt] WARNING: blues 1100 got 密碼錯誤
+2025-12-31 04:39:18 [decrypt] WARNING: blues 1111 got 密碼錯誤
+2025-12-31 04:39:19 [decrypt] WARNING: blues 1122 got 密碼錯誤
+2025-12-31 04:39:20 [decrypt] WARNING: blues 1133 got 密碼錯誤
+2025-12-31 04:39:21 [decrypt] WARNING: blues 1144 got 密碼錯誤
+2025-12-31 04:39:22 [decrypt] WARNING: blues 1155 got 密碼錯誤
+2025-12-31 04:39:22 [decrypt] WARNING: blues 1166 got 密碼錯誤
+2025-12-31 04:39:23 [decrypt] WARNING: blues 1177 got 密碼錯誤
+2025-12-31 04:39:24 [decrypt] WARNING: blues 1188 got 密碼錯誤
+2025-12-31 04:39:25 [decrypt] WARNING: blues 1199 got 密碼錯誤
+2025-12-31 04:39:26 [decrypt] WARNING: blues 2200 got 密碼錯誤
+2025-12-31 04:39:27 [decrypt] WARNING: blues 2211 got 密碼錯誤
+2025-12-31 04:39:28 [decrypt] WARNING: blues 2222 got 密碼錯誤
+2025-12-31 04:39:29 [decrypt] WARNING: blues 2233 got 密碼錯誤
+2025-12-31 04:39:30 [decrypt] WARNING: blues 2244 got 密碼錯誤
+2025-12-31 04:39:31 [decrypt] WARNING: blues 2255 got 密碼錯誤
+2025-12-31 04:39:32 [decrypt] WARNING: blues 2266 got 密碼錯誤
+2025-12-31 04:39:33 [decrypt] WARNING: blues 2277 got 密碼錯誤
+2025-12-31 04:39:34 [decrypt] WARNING: blues 2288 got 密碼錯誤
+2025-12-31 04:39:34 [decrypt] WARNING: blues 2299 got 密碼錯誤
+2025-12-31 04:39:35 [decrypt] WARNING: blues 3300 got 密碼錯誤
+2025-12-31 04:39:36 [decrypt] WARNING: blues 3311 got 密碼錯誤
+2025-12-31 04:39:37 [decrypt] WARNING: blues 3322 got 密碼錯誤
+2025-12-31 04:39:38 [decrypt] WARNING: blues 3333 got 密碼錯誤
+2025-12-31 04:39:39 [decrypt] WARNING: blues 3344 got 密碼錯誤
+2025-12-31 04:39:40 [decrypt] WARNING: blues 3355 got 密碼錯誤
+2025-12-31 04:39:41 [decrypt] WARNING: blues 3366 got 密碼錯誤
+2025-12-31 04:39:44 [decrypt] INFO: blues saved new password 3377
+2025-12-31 04:39:45 [decrypt] WARNING: blues 3377 got 密碼錯誤
+2025-12-31 04:39:46 [decrypt] WARNING: blues 0000 got 密碼錯誤
+2025-12-31 04:39:47 [decrypt] WARNING: blues 0011 got 密碼錯誤
+2025-12-31 04:39:48 [decrypt] WARNING: blues 0022 got 密碼錯誤
+2025-12-31 04:39:50 [decrypt] INFO: blues saved new password 0033
+2025-12-31 04:39:50 [scrapy.extensions.logstats] INFO: Crawled 4 pages (at 4 pages/min), scraped 0 items (at 0 items/min)
+2025-12-31 04:39:51 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 https://www.yudou6677.top/?m=1>: HTTP status code is not handled or not allowed
+2025-12-31 04:39:51 [scrapy.core.engine] INFO: Closing spider (finished)
+2025-12-31 04:39:51 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/exception_count': 1,
+ 'downloader/exception_type_count/twisted.web._newclient.ResponseNeverReceived': 1,
+ 'downloader/request_bytes': 3990,
+ 'downloader/request_count': 11,
+ 'downloader/request_method_count/GET': 11,
+ 'downloader/response_bytes': 205395,
+ 'downloader/response_count': 10,
  'downloader/response_status_count/200': 4,
- 'downloader/response_status_count/302': 4,
+ 'downloader/response_status_count/302': 5,
  'downloader/response_status_count/404': 1,
- 'elapsed_time_seconds': 74.6802,
+ 'elapsed_time_seconds': 61.019426,
  'finish_reason': 'finished',
- 'finish_time': datetime.datetime(2025, 12, 30, 4, 40, 59, 976022, tzinfo=datetime.timezone.utc),
- 'httpcompression/response_bytes': 1106997,
+ 'finish_time': datetime.datetime(2025, 12, 31, 4, 39, 51, 260817, tzinfo=datetime.timezone.utc),
+ 'httpcompression/response_bytes': 1088154,
  'httpcompression/response_count': 5,
  'httperror/response_ignored_count': 1,
  'httperror/response_ignored_status_count/404': 1,
  'items_per_minute': 0.0,
  'log_count/INFO': 20,
- 'log_count/WARNING': 62,
- 'memusage/max': 189808640,
- 'memusage/startup': 181477376,
+ 'log_count/WARNING': 55,
+ 'memusage/max': 189337600,
+ 'memusage/startup': 181760000,
  'request_depth_max': 1,
  'response_received_count': 5,
- 'responses_per_minute': 4.0540540540540535,
- 'scheduler/dequeued': 9,
- 'scheduler/dequeued/memory': 9,
- 'scheduler/enqueued': 9,
- 'scheduler/enqueued/memory': 9,
- 'start_time': datetime.datetime(2025, 12, 30, 4, 39, 45, 295822, tzinfo=datetime.timezone.utc)}
-2025-12-30 04:40:59 [scrapy.core.engine] INFO: Spider closed (finished)
+ 'responses_per_minute': 4.918032786885246,
+ 'retry/count': 1,
+ 'retry/reason_count/twisted.web._newclient.ResponseNeverReceived': 1,
+ 'scheduler/dequeued': 11,
+ 'scheduler/dequeued/memory': 11,
+ 'scheduler/enqueued': 11,
+ 'scheduler/enqueued/memory': 11,
+ 'start_time': datetime.datetime(2025, 12, 31, 4, 38, 50, 241391, tzinfo=datetime.timezone.utc)}
+2025-12-31 04:39:51 [scrapy.core.engine] INFO: Spider closed (finished)
