@@ -77,7 +77,7 @@ sites:
     txt/yaml subscription links
   link_pattern: https://node\.clashnode\.cc/uploads/\d{4}/\d{2}/(?:\d+-\d{8}\.(?:txt|yaml)|\d{8}\.json)
   name: clashnode
-  node_count: 18
+  node_count: 14
   start_url: https://clashnode.cc/free-node/
   type: simple
   up_date: '2026-11-22'
